@@ -12,7 +12,7 @@ def get_user_input(prompt):
             else:
                 print("Please enter a positive number.")
         except ValueError:
-            print("Invalid input, please enter a number.")
+            print("Invalid input, please enter a number..")
 
 # Set up headers for the API request
 headers = {

@@ -12,7 +12,7 @@ def get_user_input(prompt):
             else:
                 print("Please enter a positive number.")
         except ValueError:
-            print("Invalid input, please enter a number.")
+            print("Invalid input, please enter a number..")
 
 # Function to fetch jokes from the API based on the search term
 def fetch_jokes(search_term, limit=1000):
