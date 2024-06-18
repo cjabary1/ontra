@@ -1,7 +1,9 @@
-<!-- Hello - I have provided two files with different version of the code. As the file names state, one version of the code has functions and one doesn't. They both excute and yeild the same results.  -->
+Ontra | Take-Home Exercise
+
+ I have provided two files with different version of the code. As the file names state, one version of the code has functions and one doesn't. They both excute and yeild the same results.
 
 
-<!-- ######################################Key Components Explained:#####################################
+Key Components Explained:
 Headers Setup: Sets up the request headers and makes an API call
 User Input: Script takes user input for the search term and number of jokes, enhancing interactivity.
 API Request: Fetches all jokes that match the search term up to a specified limit in one go. A
@@ -10,11 +12,12 @@ Display Loop: Iterates through the jokes in fixed intervals, ensuring that it ei
 Efficient Indexing: Uses slicing to handle batches of jokes for each interval, which is straightforward and effective for this use
 Timestamps: Each batch of jokes fetched includes a timestamp indicating when they were fetched. This helps in tracking when the information was retrieved, which is particularly useful for logs or historical context.
 Readability: Jokes are separated by newlines and clearly marked, improving the overall readability of the output. Each joke is presented with a "Joke:" prefix..
- case. -->
+ case.
 
 
 
-<!-- ############################## How It Works #########################################
+How the script works Works
+
 User Input:
 
 The script begins by prompting the user to enter a search term for the jokes.
@@ -38,7 +41,7 @@ Error Handling:
 The script includes error handling for network issues and HTTP errors to provide feedback in case something goes wrong with the API request.
 
 
-###############################Code Breakdown #######################
+Code Breakdown step-by-step
 get_user_input(prompt):
 
 Prompts the user for input and ensures the value entered is a positive integer.
@@ -63,4 +66,4 @@ Example Usage
 Run the script.
 Enter a search term when prompted (e.g., "dog").
 Enter the number of jokes you want in each set (e.g., "2").
-The script will fetch and display jokes based on your inputs, showing new jokes every 15 seconds for up to 1 minute. -->
+The script will fetch and display jokes based on your inputs, showing new jokes every 15 seconds for up to 1 minute.
