@@ -12,11 +12,7 @@ Display Loop: Iterates through the jokes in fixed intervals, ensuring that it ei
 Efficient Indexing: Uses slicing to handle batches of jokes for each interval, which is straightforward and effective for this use
 Timestamps: Each batch of jokes fetched includes a timestamp indicating when they were fetched. This helps in tracking when the information was retrieved, which is particularly useful for logs or historical context.
 Readability: Jokes are separated by newlines and clearly marked, improving the overall readability of the output. Each joke is presented with a "Joke:" prefix..
-<<<<<<< HEAD
- case.
-=======
  case. -->
->>>>>>> f13c3de (changes)
 
 
 
